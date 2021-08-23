@@ -1,0 +1,175 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Thanks : Rishi Shah 's Contribution
+% inspired by his awesome contribution:
+% https://www.overleaf.com/articles/rishi-shahs-resume/vgxvkmxktyxn
+% Author : Allianzcortex
+% contact me : github.com/Allianzcortex
+% email : iamwanghz#gmail.com
+%
+% Modified by Jingyuan (Rooney) Gao
+% Rooney's github: rjgao1
+% Rooney's note: header format thanks to the solution egreg posted on StackExchange: https://tex.stackexchange.com/a/55503.
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{resume} % Use the custom resume.cls style
+
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[left=0.75in,top=0.45in,right=0.75in,bottom=0.45in]{geometry} % Document margins
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa}
+
+\renewcommand*\familydefault{\sfdefault}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand*{\helv}{\fontfamily{phv}\selectfont}
+\newcommand*{\cmss}{\fontfamily{cmss}\selectfont}
+\newcommand*{\cmtt}{\fontfamily{cmtt}\selectfont}
+\newcommand*{\ptm}{\fontfamily{ptm}\selectfont}
+\newcommand\textbox[1]{%
+  \parbox{.333\textwidth}{#1}%
+}
+\newcommand{\headerline}[3]{%
+  \par\noindent
+  \makebox[0pt][l]{#1}%
+  \makebox[\textwidth][c]{#2}%
+  \makebox[0pt][r]{\texttt{#3}}\par}
+
+\linespread{1.3} % overall line spacing
+
+\def\namesize{\huge}
+\def \printname {
+  \begingroup
+    \hfil{\MakeUppercase{\namesize\textbf{ \@name}}}\hfil
+    \nameskip\break
+  \endgroup
+}
+
+
+\name{\Large{True Blue}}
+% 3 pieces of information can be fit into the same address line using the \newaddress command
+\newaddress{\href{https://github.com/}{\faGithubSquare{{\cmtt/github-handle}}}}{{\cmss example@gmail.com $\cdot$ City, State $\cdot$ +1 (555) 555-5555}}{\href{https://www.linkedin.com/}{\faLinkedinSquare{{\cmtt/linkedin-handle}}}}
+
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	WORK AUTHORIZATION (OPTIONAL)
+%----------------------------------------------------------------------------------------
+% \begin{center}
+%     \textbf{Eligible to work in the U.S. and Canada for Summer 2022}\\[-25]
+% \end{center}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{flushleft}
+    {\Large \textbf{{EDUCATION}}}
+\end{flushleft}
+\smallskip
+\hline
+
+\textbf{{\em University A}} \ \ \ \ \{Degree\} in \{Subject\} \hfill month/year \\
+\textbf{{\em University B}}\ \ \ \ \ \{Degree\} in \{Subject\} \hfill month/year \\[-25]
+
+%----------------------------------------------------------------------------------------
+%	SKILLS AND DISTINCTIONS SECTION
+%----------------------------------------------------------------------------------------
+\bigskip
+\begin{flushleft}
+    {\Large \textbf{{SKILLS}}} {\Medium \textbf{{\&}}} {\Large \textbf{{Distinctions}}}
+\end{flushleft}
+\smallskip
+\hline
+
+{\bf Programming Languages}: Language1, Language2, Language3\\
+{\bf Technologies involved:} Technology1, Technology2, Technology3, Technology4, Technology5\\
+{\bf Distinction1}, description\\[-25]
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\bigskip
+\begin{flushleft}
+    
+    {\Large \textbf{{EXPERIENCE}}}
+\end{flushleft}
+\smallskip
+\hline
+
+{\bf \Large{Company A}} -- Software Engineer Intern \hfill month -- month/year, Location \\[-25]
+\begin{list}{\textbullet}{\leftmargin=0.6em \itemindent=0.45em}
+    \item Lorem ipsum dolor sit amet, consectetur \textbf{adipiscing} elit, sed do eiusmod \textbf{tempor incididunt} ut labore.
+\end{list}
+
+\medskip
+
+{\bf {\Large{Company B}}} -- Software Engineering Intern \hfill month -- month/year, Location \\[-25]
+\begin{list}{\textbullet}{\leftmargin=0.6em \itemindent=0.45em}
+    \item Lorem ipsum dolor sit \textbf{amet}, consectetur adipiscing elit, sed do eiusmod \textbf{tempor incididunt} ut labore et.
+    
+    \item Lorem ipsum dolor sit amet, \textbf{consectetur} adipiscing elit, sed do \textbf{eiusmod} tempor incididunt ut \textbf{labore et dolore} magna aliqua. Dolor adipiscing elit ut aliquam purus.
+    
+    \item Lorem \textbf{ipsum dolor} sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+    
+    \item Lorem ipsum dolor sit amet, consectetur incididunt ut labore et \textbf{dolore magna aliqua}. Ullamcorper morbi tincidunt ornare massa eget \textbf{egestas} purus \textbf{viverra} accumsan.
+    
+    \item Sapien eget mi proin sed libero enim sed faucibus. Ac \textbf{tortor vitae} purus faucibus ornare suspendisse sed.\\[-25]
+\end{list}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\bigskip
+\begin{flushleft}
+    {\Large \textbf{{PROJECTS}}}
+\end{flushleft}
+\smallskip
+\hline
+{\bf Project A} -- subtitle\\[-25]
+\begin{list}{\textbullet}{\leftmargin=0.6em \itemindent=0.45em}
+    \item Lorem ipsum dolor sit amet, consectetur \textbf{adipiscing} elit, sed do \textbf{eiusmod} \textbf{tempor} incididunt ut.
+
+    \item Lorem amet, consectetur adipiscing elit, sed \textbf{do eiusmod tempor incididunt} ut labore et aliqua.
+    
+    \item Technologies: \textbf{Technology1, Technology2, Technology3, Technology4, Technology5}
+\end{list}
+
+\medskip
+
+
+{\bf Project B} -- subtitle\\[-25]
+\begin{list}{\textbullet}{\leftmargin=0.6em \itemindent=0.45em}
+    \item Lorem ipsum dolor, adipiscing elit, sed do eiusmod tempor incididunt ut labore et \textbf{dolore} magna \textbf{aliqua}. 
+    
+    \item Lorem \textbf{dolor amet}, sed do eiusmod tempor \textbf{incididunt ut} labore et dolore magna aliqua. 
+    
+    \item Lorem ipsum \textbf{dolor} consectetur adipiscing elit, sed tempor incididunt ut labore et dolore magna aliqua..
+    
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do \textbf{eiusmod tempor} incididunt ut magna aliqua.
+    
+    \item Lorem  sit amet, adipiscing elit, sed do \textbf{eiusmod} tempor incididunt ut labore et dolore \textbf{magna} aliqua.
+    
+    \item Technologies: \textbf{Technology1, Technology2, Technology3, Technology4, Technology5}
+\end{list}
+
+\end{document}
